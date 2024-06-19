@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import RestaurantCard from './RestaurantCard';
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import RestaurantCard from "./RestaurantCard";
 
 const FeaturedRestaurants = () => {
   const [restaurants, setRestaurants] = useState([]);
@@ -10,11 +10,15 @@ const FeaturedRestaurants = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://devserver.apnathali.com/api/v1/get/all/shop');
+        const response = await axios.get(
+          "https://devserver.apnathali.com/api/v1/get/all/shop"
+        );
         setRestaurants(response.data.data);
-        console.log(response.data.data);
+        console.log(response.data.data
+        );
+        
       } catch (error) {
-        console.error('Error fetching the data', error);
+        console.error("Error fetching the data", error);
       }
     };
 
@@ -35,8 +39,10 @@ const FeaturedRestaurants = () => {
     }
   };
 
-  return (
-    <div className="container mx-auto my-8">
+  // Static data simulating API response
+
+  return <>
+  <div className="container mx-auto my-8">
       <h2 className="text-center text-2xl font-bold mb-4">Featured Restaurants</h2>
       <div className="flex justify-center items-center">
         <button
@@ -68,7 +74,7 @@ const FeaturedRestaurants = () => {
         </button>
       </div>
     </div>
-  );
+  </>;
 };
 
 export default FeaturedRestaurants;

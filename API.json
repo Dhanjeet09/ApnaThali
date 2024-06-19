@@ -1,0 +1,673 @@
+
+{
+    "success": true,
+    "message": "Restaurant fetch successfully",
+    "data": [
+      {
+        "_id": "64f82ea8872445a880d5cae5",
+        "name": "Shree gurukripa restaurant",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.4098339,
+            23.2126781
+          ]
+        },
+        "logo": "1718606216173restaurantImg2.png",
+        "tags": [
+          ""
+        ],
+        "preference": "nonveg",
+        "address": "6C65+VMJ, Maulana Azad National Institute of Technology, Bhopal, Madhya Pradesh 462007, India",
+        "averageRating": 5,
+        "totalReviews": 7,
+        "plans": [
+          {
+            "planName": "Single thali",
+            "amount": 1500
+          },
+          {
+            "planName": "One time thali - 1500",
+            "amount": 1500
+          },
+          {
+            "planName": "Two time thali - 2800",
+            "amount": 2800
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "656d879bf48c083a82268414",
+        "name": "The Tadka House",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.465818,
+            23.252181
+          ]
+        },
+        "address": "118, Indrapuri C sector, Sector C, Govindpura, Bhopal, Madhya Pradesh 462023, India",
+        "logo": "1718606109287restaurantImg1.png",
+        "preference": "both",
+        "tags": [
+          ""
+        ],
+        "type": "both",
+        "averageRating": 5,
+        "totalReviews": 5,
+        "plans": [
+          {
+            "planName": "One time thali",
+            "amount": 500
+          },
+          {
+            "planName": "One time thali",
+            "amount": 1300
+          },
+          {
+            "planName": "Two time thali",
+            "amount": 2500
+          },
+          {
+            "planName": "Butter two time plan",
+            "amount": 2700
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "65afa6d5a9c01327300a030a",
+        "name": "Om Naman sweets and restaurant",
+        "logo": "17138648217214.png",
+        "tags": [
+          ""
+        ],
+        "address": "6C65+VMJ, Maulana Azad National Institute of Technology, Bhopal, Madhya Pradesh 462007, India",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.4098339,
+            23.2126781
+          ]
+        },
+        "preference": "veg",
+        "averageRating": 0,
+        "totalReviews": 0,
+        "plans": [
+          {
+            "planName": "One time",
+            "amount": 1300
+          },
+          {
+            "planName": "Two time ",
+            "amount": 2300
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "65be4c183bd5830295ab78f4",
+        "name": "GUPTAJI SHAKAHARI BHOJNALAYA",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.4098339,
+            23.2126781
+          ]
+        },
+        "logo": "17138647990325.png",
+        "tags": [
+          ""
+        ],
+        "preference": "veg",
+        "averageRating": 0,
+        "totalReviews": 0,
+        "address": "6C65+VMJ, Maulana Azad National Institute of Technology, Bhopal, Madhya Pradesh 462007, India",
+        "plans": [
+          {
+            "planName": "One time thali",
+            "amount": 1250
+          },
+          {
+            "planName": "Two time thali ",
+            "amount": 2400
+          },
+          {
+            "planName": "15 days tow time thali",
+            "amount": 1250
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "65bfa90877c14fbbc9835d27",
+        "name": "Shri vaibhav laxmi",
+        "logo": "17138647699878.png",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.4356211,
+            23.2321394
+          ]
+        },
+        "address": "90, Chetak Bridge, near Mega Mart, Near Raymond Showroom, Zone-II, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462023, India",
+        "preference": "veg",
+        "tags": [
+          ""
+        ],
+        "averageRating": 0,
+        "totalReviews": 0,
+        "plans": [
+          {
+            "planName": "One time thali",
+            "amount": 1500
+          },
+          {
+            "planName": "Two time thali",
+            "amount": 2800
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "65c475e2b4c50b2642ee0bdc",
+        "name": "Jai maa annupuna bhojanalay",
+        "logo": "171393546454919.png",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            75.8633105,
+            22.6866405
+          ]
+        },
+        "preference": "veg",
+        "tags": [
+          ""
+        ],
+        "averageRating": 0,
+        "totalReviews": 0,
+        "address": "01, Bholaram Ustad Marg, Bhavar Koya Square, Sarvanand Nagar, Bhanwar Kuwa, Indore, Madhya Pradesh 452014, India",
+        "plans": [
+          {
+            "planName": "One month",
+            "amount": 2300
+          },
+          {
+            "planName": "One time",
+            "amount": 1300
+          },
+          {
+            "planName": "One month ",
+            "amount": 2300
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "65c4a5255a9121ac2162d84f",
+        "name": "Indori chai theka",
+        "logo": "171393554006918.png",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            75.8667764,
+            22.6810242
+          ]
+        },
+        "preference": "veg",
+        "tags": [
+          ""
+        ],
+        "averageRating": 0,
+        "totalReviews": 0,
+        "address": "23-A, Nanak Nagar, Indore, Madhya Pradesh 452014, India",
+        "plans": [
+          {
+            "planName": "Lunch and dinner",
+            "amount": 2500
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "65dc97decf26cc7433da4ba1",
+        "tags": [
+          ""
+        ],
+        "preference": "veg",
+        "name": "Chai ka thiya and restaurant",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.4716151,
+            23.2496756
+          ]
+        },
+        "logo": "171393556822616.png",
+        "averageRating": 0,
+        "totalReviews": 0,
+        "address": "25, Sector A, Sonagiri, Bhopal, Madhya Pradesh 462022, India",
+        "plans": [
+          {
+            "planName": "3000 tiffin",
+            "amount": 1500
+          },
+          {
+            "planName": "2700",
+            "amount": 2700
+          },
+          {
+            "planName": "2800",
+            "amount": 2800
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "65ddfa7700cc0ca5d33b3917",
+        "tags": [
+          ""
+        ],
+        "preference": "veg",
+        "name": "Sanvi Bhojnalaye",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.4722318,
+            23.2533362
+          ]
+        },
+        "logo": "171393542350814.png",
+        "averageRating": 0,
+        "totalReviews": 0,
+        "address": "MIG-106, Satnami Nagar, Sector B, Sonagiri, Bhopal, Madhya Pradesh 462022, India",
+        "plans": [
+          {
+            "planName": "One time ",
+            "amount": 1400
+          },
+          {
+            "planName": "Two time thali",
+            "amount": 2400
+          }
+        ],
+        "products": [
+          {
+            "name": "Regular Thali 2",
+            "price": 60
+          }
+        ],
+        "distance": null
+      },
+      {
+        "_id": "65fef30672a92fad15cda66a",
+        "preference": "veg",
+        "name": "Archna Tiffin center",
+        "logo": "1711975619488WhatsApp Image 2024-03-30 at 17.10.51.jpeg",
+        "address": "7F39+HR6, 417Satnami Nagar, Sonagiri, Bhopal, Madhya Pradesh 462022, India",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.4695816449821,
+            23.253865890172968
+          ]
+        },
+        "tags": [
+          ""
+        ],
+        "averageRating": 0,
+        "totalReviews": 0,
+        "type": "tiffin",
+        "plans": [
+          {
+            "planName": "One Time Tiffin",
+            "amount": 1500
+          },
+          {
+            "planName": "Two Time tiffin",
+            "amount": 2500
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "66153e126f3f7403b8990acd",
+        "tags": [
+          ""
+        ],
+        "preference": "non-veg",
+        "name": "Atrangi cafe & restaurant",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.4673633,
+            23.2523033
+          ]
+        },
+        "address": "C-76, Sector C, Sonagiri, Bhopal, Madhya Pradesh 462022, India",
+        "logo": "171393528268812.png",
+        "averageRating": 0,
+        "totalReviews": 0,
+        "plans": [
+          {
+            "planName": "One time thali plan",
+            "amount": 1600
+          },
+          {
+            "planName": "Two time thali plan",
+            "amount": 2600
+          },
+          {
+            "planName": "Nonveg thali",
+            "amount": 3200
+          },
+          {
+            "planName": "Unlimited plan",
+            "amount": 3500
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "66190ef91a91d171dc29f308",
+        "tags": [
+          ""
+        ],
+        "preference": "veg",
+        "name": "Adda",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.4693712,
+            23.2677256
+          ]
+        },
+        "address": "173, Santoshi Vihar Colony, Sector B, Ayodhya Nagar, Bhopal, Madhya Pradesh 462041, India",
+        "logo": "17139510832863.png",
+        "averageRating": 0,
+        "totalReviews": 0,
+        "plans": [
+          {
+            "planName": "Adda monthly plan",
+            "amount": 2600
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "66195a05f960d94bf32f2e5d",
+        "tags": [
+          ""
+        ],
+        "preference": "veg",
+        "name": "Dropati tifin center",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.4756926,
+            23.2552994
+          ]
+        },
+        "address": "59-A, By pass Road, Sundar Nagar, Ayodhya Bypass, Bhopal, Madhya Pradesh 462022, India",
+        "logo": "17139510645412.png",
+        "averageRating": 0,
+        "totalReviews": 0,
+        "plans": [
+          {
+            "planName": "Evening tifin",
+            "amount": 1400
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "66195d2ef960d94bf32f399c",
+        "tags": [
+          ""
+        ],
+        "preference": "veg",
+        "name": "SHRI JAYPAL RESTAURANT",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.4779735,
+            23.2564932
+          ]
+        },
+        "address": "01, Mohan Nagar, Ayodhya Bypass, Bhopal, Madhya Pradesh 462022, India",
+        "logo": "171393518672111.png",
+        "averageRating": 5,
+        "totalReviews": 3,
+        "plans": [
+          {
+            "planName": "One time thali",
+            "amount": 1600
+          },
+          {
+            "planName": "Two time thali",
+            "amount": 3000
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "661a7a4d81587ccbd4ecf35a",
+        "tags": [
+          ""
+        ],
+        "preference": "veg",
+        "name": "Shivam restaurant",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.5023441,
+            23.251501
+          ]
+        },
+        "address": "7G22+JWM, Raisen Rd, Manak Vihar, Patel Nagar, Bhopal, Madhya Pradesh 462022, India",
+        "logo": "17138650414967.png",
+        "averageRating": 0,
+        "totalReviews": 0,
+        "plans": [
+          {
+            "planName": "1 time thali",
+            "amount": 1500
+          },
+          {
+            "planName": "2time thali",
+            "amount": 2500
+          },
+          {
+            "planName": "Haf manth plan",
+            "amount": 1500
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "661e976c965156a201f5e193",
+        "tags": [
+          ""
+        ],
+        "preference": "veg",
+        "name": "Shri shayama mess",
+        "address": "B/95, Manak Vihar, Anandnagar, Bhopal, Madhya Pradesh 462024, India",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.4985194,
+            23.2507137
+          ]
+        },
+        "logo": "171393522724120.png",
+        "averageRating": 0,
+        "totalReviews": 0,
+        "plans": [
+          {
+            "planName": "Nasta with two time thali (unlimited food)",
+            "amount": 2400
+          },
+          {
+            "planName": "2 time thali (without nasta) unlimited food ",
+            "amount": 2300
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "65295bcd9b6786c75ba1a8c2",
+        "name": "Jain bhojnalaya",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.446452,
+            23.254426
+          ]
+        },
+        "logo": "17138648882871.png",
+        "preference": "veg",
+        "tags": [
+          ""
+        ],
+        "address": "12-A, Govindpura Industrial Area, Bhopal, Madhya Pradesh 462023, India",
+        "averageRating": 5,
+        "totalReviews": 39,
+        "plans": [
+          {
+            "planName": "One time thali",
+            "amount": 1600
+          },
+          {
+            "planName": "Two time thali",
+            "amount": 2800
+          },
+          {
+            "planName": "Regular thali",
+            "amount": 2400
+          },
+          {
+            "planName": "My choice",
+            "amount": 2800
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "662f6433f525ef146ed5a14a",
+        "tags": [
+          ""
+        ],
+        "preference": "veg",
+        "name": "Bread Box",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.46666373685002,
+            23.251981715799097
+          ]
+        },
+        "address": "132, G-1, Indrapuri C sector, Sector C, Indrapuri, Bhopal, Madhya Pradesh 462022, India",
+        "logo": "1714660402988WhatsApp Image 2024-05-02 at 19.12.59.jpeg",
+        "averageRating": 5,
+        "totalReviews": 2,
+        "plans": [
+          {
+            "planName": "One time (mess)",
+            "amount": 1400
+          },
+          {
+            "planName": "Two Times (mess)",
+            "amount": 2600
+          },
+          {
+            "planName": "One time (tiffin)",
+            "amount": 1450
+          },
+          {
+            "planName": "Two times (tiffin)",
+            "amount": 2700
+          }
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      },
+      {
+        "_id": "666b404432e06c8c107d1bef",
+        "name": "cdasc",
+        "tags": [
+          
+        ],
+        "type": "tiffin",
+        "preference": "veg",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.446452,
+            23.254426
+          ]
+        },
+        "averageRating": 0,
+        "totalReviews": 0,
+        "address": "12-A, Govindpura Industrial Area, Bhopal, Madhya Pradesh 462023, India",
+        "plans": [
+          
+        ],
+        "products": [
+          
+        ],
+        "distance": null
+      }
+    ],
+    "totalPage": 1
+  }

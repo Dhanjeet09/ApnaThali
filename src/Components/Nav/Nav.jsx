@@ -14,8 +14,8 @@ const Nav = () => {
       </div>
       <div className=" flex  gap-10">    
         <h1>Home</h1>
-        <h1>Reatorents</h1>
-        <h1>Shope</h1>
+        <h1>Restaurants</h1>
+        <h1>Shop</h1>
       </div>
     </div>
   );

@@ -3,6 +3,10 @@ import Nav from './Components/Nav/Nav'
 import Home from './Components/Home'
 import ServicePlans from './Components/What-We-Serve/ServicePlans'
 import FeaturedRestaurants from './Components/FeaturedRestaurants/FeaturedRestaurants'
+import Footer from './Components/Footer'
+import Testimonial from './Components/Testimonial'
+import PromoComponent from './Components/PromoComponent'
+import StepComponent from './Components/StepComponent/StepComponent'
 
 const App = () => {
 
@@ -14,6 +18,10 @@ const App = () => {
       <Home/>
       <ServicePlans/>
       <FeaturedRestaurants/>
+      <StepComponent/>
+      <Testimonial/>
+      <PromoComponent/>
+      <Footer/>
     </div>
     </>
   )

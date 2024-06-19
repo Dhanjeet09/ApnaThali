@@ -19,11 +19,11 @@ const ServicePlans = () => {
 
         />
         <Card
-          path={"./src/Images/tile2.jpeg"}
+          path={"./src/Images/tile2.png"}
           alt={"Instant Meal service"}
           title={"Instant Meal service"}
           des={"Delivery that is always on time even faster"}
-
+          className={""}
         />
         <Card
           path={"./src/Images/tile3.png"}
