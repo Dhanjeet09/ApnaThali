@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import apnaThaliLogo from '../../Images/LOGO APNA THALI 2 conflict-02 4.png'
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <nav className="pt-5 px-10 xl:px-24 lg:px-24 flex justify-between items-center w-full  ">
       <div className="flex items-center w-1/5 h-1/6 pt-5">
-        <img className="w-20" src="./src/Images/LOGO APNA THALI 2 conflict-02 4.png" alt="Logo" />
+        <img className="w-20" src={apnaThaliLogo} alt="Logo" />
         <h1 className="font-bold">
           APNA <span className="text-red-500">THALI</span>
         </h1>

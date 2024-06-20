@@ -1,7 +1,10 @@
 import React, { useEffect } from "react";
-
+// import images from "images"
+import placeholderImage from '../../Images/Cardbg.jpg'
+import nonveg from '../../assets/non-veg.png'
+import veg from '../../assets/veg.png'
 const RestaurantCard = ({ restaurant, index }) => {
-  const placeholderImage = "./src/Images/Cardbg.jpg";
+  
 
   return (
     <div className="w-1/4  p-1 mx-auto rounded-xl shadow-xl overflow-hidden md:max-w-2xl">
@@ -36,10 +39,10 @@ const RestaurantCard = ({ restaurant, index }) => {
         </div>
         <span className="flex">
           {["nonveg", "both"].includes(restaurant.preference) && (
-            <img className="w-10" src="./src/assets/non-veg.png" alt="Non-Veg" />
+            <img className="w-10" src={nonveg} alt="Non-Veg" />
           )}
           {["veg", "both"].includes(restaurant.preference) && (
-            <img className="w-10" src="./src/assets/veg.png" alt="Veg" />
+            <img className="w-10" src={veg} alt="Veg" />
           )}
         </span>
       </div>

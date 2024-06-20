@@ -1,12 +1,14 @@
 import React from 'react'
 
+import Thali from "../../Images/Thali.png";
+
 const MealPlanCard = () => {
   return (
     <>
     <div className="flex items-center flex-col max-w-sm mx-auto rounded-lg p-6 bg-gradient-to-t from-rose-100  via-transparent to-transparent">
       <div className=" size-56 p-5 -ml-5 rounded-full from-transparent via-transparent to-orange-400 bg-gradient-to-t">
         <div className="  w-48 rounded-full overflow-hidden">
-          <img src="./src/Images/Thali.png" alt="Meal Plan" />
+          <img src={Thali} alt="Meal Plan" />
         </div>
       </div>
       <div className=" translate-x-16 -translate-y-16 h-12 w-12 bg-yellow-400 rounded-full px-1 pt-3.5 text-white border-2 border-white  font-bold text-sm">
@@ -15,7 +17,7 @@ const MealPlanCard = () => {
       <div className="text-center mt-4">
         <div className="flex justify-center items-center mb-2">
           <img
-            src="https://randomuser.me/api/portraits/men/32.jpg"
+            src=""
             alt="User 1"
             className="w-8 h-8 rounded-full border-2 border-white -ml-4"
           />

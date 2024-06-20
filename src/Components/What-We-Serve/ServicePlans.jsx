@@ -1,5 +1,8 @@
 import React from "react";
 import Card from "./Card";
+import tile1 from '../../Images/tile1.png'
+import tile2 from '../../Images/tile2.png'
+import tile3 from '../../Images/tile3.png'
 
 const ServicePlans = () => {
   return (
@@ -12,19 +15,19 @@ const ServicePlans = () => {
       </div>
       <div className="flex flex-col lg:flex-row justify-center space-y-8 lg:space-y-0 lg:space-x-8">
         <Card
-          path={"./src/Images/tile1.png"}
+          path={tile1}
           alt={"Eat Multiple Restaurants"}
           title={"Eat Multiple restaurants"}
           des={"You only need a few steps in ordering food"}
         />
         <Card
-          path={"./src/Images/tile2.png"}
+          path={tile2}
           alt={"Instant Meal service"}
           title={"Instant Meal service"}
           des={"Delivery that is always on time even faster"}
         />
         <Card
-          path={"./src/Images/tile3.png"}
+          path={tile3}
           alt={"Everyday New Meal"}
           title={"Everyday New Meal"}
           des={"Not only fast for us quality is also number one"}

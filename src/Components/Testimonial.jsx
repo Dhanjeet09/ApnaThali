@@ -1,5 +1,7 @@
 import React from "react";
 
+import ReviewMan from '../Images/ReviewMan.jpg'
+
 const Testimonial = () => {
   return (
     <div className="py-8">
@@ -28,7 +30,7 @@ const Testimonial = () => {
             <div className="flex items-center justify-center mb-4">
               <div className="rounded-full overflow-hidden w-16 h-16 sm:w-20 sm:h-20">
                 <img
-                  src="./src/Images/ReviewMan.jpg"
+                  src={ReviewMan}
                   className="w-full h-full object-cover"
                   alt="User"
                 />

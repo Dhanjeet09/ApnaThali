@@ -1,6 +1,9 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
+import FooterRestaurantIcon from '../Images/FooterRestaurantIcon.png'
+import FooterDishIcon from '../Images/FooterDishIcon.png'
+
 const Footer = () => {
   const footerLinks = [
     {
@@ -21,7 +24,7 @@ const Footer = () => {
           <a className="-mt-8 flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <img
               className="w-20"
-              src="./src/Images/FooterRestaurantIcon.png"
+              src={FooterRestaurantIcon}
               alt=""
             />
           </a>
@@ -89,7 +92,7 @@ const Footer = () => {
           <p className=" flex  items-center justify-center text-gray-500 text-sm text-center  sm:text-left">
             <img
               className="w-12 "
-              src="./src/Images/FooterDishIcon.png"
+              src={FooterDishIcon}
               alt=""
             />
             <a href="#" className="text-gray-600 ml-5" target="_blank">

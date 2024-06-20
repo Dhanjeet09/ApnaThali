@@ -1,5 +1,12 @@
 import React from "react";
 
+import tile1 from "../../Images/tile1.png";
+import orangeArrowLeft from "../../assets/orangeArrowLeft.png";
+import RESTAURANT_img from "../../Images/RESTAURANT_img.jpg";
+import orangeArrowRight from "../../assets/orangeArrowRight.png";
+import ScanAndPay from "../../Images/ScanAndPay.jpg";
+
+
 const StepComponent = () => {
   return (
     <div className="container mx-auto p-6">
@@ -10,7 +17,7 @@ const StepComponent = () => {
         {/* Choose Plan Section */}
         <div className="flex flex-col items-center text-center md:text-left md:w-1/3">
           <img
-            src="./src/Images/tile1.png"
+            src={tile1}
             alt="Choose Plan"
             className="mb-4 w-3/4 md:w-[15vw]"
           />
@@ -22,7 +29,7 @@ const StepComponent = () => {
         </div>
         <img
           className="absolute xl:block hidden w-[19vw] top-[10vh] left-[20vw] -rotate-[7deg]"
-          src="./src\assets\orangeArrowLeft.png"
+          src={orangeArrowLeft}
           alt=""
         />
         {/* Go to Partner Restaurant Section */}
@@ -35,20 +42,20 @@ const StepComponent = () => {
             Our dietitian will help you with choosing the right program!
           </p>
           <img
-            src="./src/Images/RESTAURANT_img.jpg"
+            src={RESTAURANT_img}
             alt="Partner Restaurant"
             className="mt-4 w-3/4 md:w-[20vw]"
           />
         </div>
         <img
           className="absolute hidden xl:block w-[20.5vw] top-[9vh] right-[18.5vw]  rotate-[4deg]"
-          src="./src/assets/orangeArrowRight.png"
+          src={orangeArrowRight}
           alt="Right Arrow"
         />
         {/* Scan and Eat Section */}
         <div className="flex flex-col items-center text-center md:text-left md:w-1/3">
           <img
-            src="./src/Images/ScanAndPay.jpg"
+            src={ScanAndPay}
             alt="Scan and Eat"
             className="mb-4 w-3/4 md:w-[15vw]"
           />

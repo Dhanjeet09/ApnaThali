@@ -1,5 +1,7 @@
 import React from "react";
-
+import Google_play_icon from '../assets/Google-play-icon.png'
+import app_store_icon from '../assets/app-store-icon.png'
+import screen from "../Images/screen.jpg"
 const PromoComponent = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-50">
@@ -25,7 +27,7 @@ const PromoComponent = () => {
                 className="bg-black text-white px-4 py-2 rounded-md shadow-md flex items-center space-x-2"
               >
                 <img
-                  src="./src/assets/Google-play-icon.png"
+                  src={Google_play_icon}
                   alt="Google Play"
                   className="w-10 h-10"
                 />
@@ -40,7 +42,7 @@ const PromoComponent = () => {
                 className="bg-black text-white px-4 py-2 rounded-md shadow-md flex items-center space-x-2"
               >
                 <img
-                  src="./src/assets/app-store-icon.png"
+                  src={app_store_icon}
                   alt="App Store"
                   className="w-10 h-10"
                 />
@@ -57,7 +59,7 @@ const PromoComponent = () => {
               <div className="w-48 h-96 overflow-hidden bg-white border border-gray-300 rounded-2xl shadow-inner p-4">
               
               <img
-                    src="./src/Images/screen.jpg"
+                    src={screen}
                     alt="Food"
                     className=" scale-125"
                   />

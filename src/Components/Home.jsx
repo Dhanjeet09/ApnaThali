@@ -2,6 +2,13 @@ import React from "react";
 import { FaPlay } from "react-icons/fa";
 import Nav from "../Components/Nav/Nav";
 
+import arrow from './../assets/arrow.png'
+import arrowPoint from './../assets/arrowPoint.png'
+import YellowArrow from './../assets/YellowArrow.png'
+import YellowArrowPoint from './../assets/YellowArrowPoint.png'
+import Our_Happy_Customer from './../assets/Our-Happy-Customer.png'
+import chef from './../Images/chef.png'
+
 const Home = () => {
   return (
     <div className="bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-orange-100 via-white to-white">
@@ -18,12 +25,12 @@ const Home = () => {
             </h1>
             <img
               className="absolute xl:block hidden w-[20vw] left-1/3"
-              src="./src/assets/arrow.png"
+              src={arrow}
               alt=""
             />
             <img
               className="absolute xl:block hidden w-[4vw] left-[52vw] top-[37vh] rotate-12"
-              src="./src/assets/arrowPoint.png"
+              src={arrowPoint}
               alt=""
             />
             <h1 className="mt-5 text-sm lg:text-base">
@@ -52,21 +59,21 @@ const Home = () => {
         <div className="lg:w-1/2 w-full h-full lg:h-[80vh] p-6 lg:p-0">
           <img
             className="absolute xl:block hidden w-[7vw] top-28 right-8 "
-            src="./src/assets/YellowArrow.png"
+            src={YellowArrow}
             alt=""
           />
           <img
             className="absolute xl:block hidden w-[1vw] right-[5vw] top-28 rotate-"
-            src="./src/assets/YellowArrowPoint.png"
+            src={YellowArrowPoint}
             alt=""
           />
           <div className="mt-5 lg:ml-[10%] w-full lg:w-[70%] rounded-full h-full overflow-hidden outline">
             <img
               className="absolute xl:block hidden right-16 opacity-60"
-              src="./src/assets/Our-Happy-Customer.png"
+              src={Our_Happy_Customer}
               alt=""
             />
-            <img className="w-full h-auto" src="./src/Images/chef.png" alt="Chef" />
+            <img className="w-full h-auto" src={chef} alt="Chef" />
           </div>
         </div>
       </div>
