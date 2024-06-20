@@ -64,8 +64,8 @@ const Footer = () => {
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font text-orange-400 font-bold  tracking-widest text-sm mb-3">
               Get in touch
-            </h2>
-            <p className="text-gray-600 w-[20vw]">
+            </h2> 
+            <p className="text-gray-600  ml-24 md:-ml-1 text-center w-[20vw]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor
             </p>

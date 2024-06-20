@@ -5,8 +5,9 @@ import RestaurantCard from "./RestaurantCard";
 const FeaturedRestaurants = () => {
   const [restaurants, setRestaurants] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isLoading, setIsLoading] = useState(true);
+  const [hasError, setHasError] = useState(false);
 
-  // Fetch data from the API
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -14,55 +15,59 @@ const FeaturedRestaurants = () => {
           "https://devserver.apnathali.com/api/v1/get/all/shop"
         );
         setRestaurants(response.data.data);
-        console.log(response.data.data
-        );
-        
+        setIsLoading(false);
       } catch (error) {
         console.error("Error fetching the data", error);
+        setHasError(true);
+        setIsLoading(false);
       }
     };
 
     fetchData();
   }, []);
 
-  // Handle click for the next button
   const handleNext = () => {
-    if (currentIndex < restaurants.length - 3) {
+    if (currentIndex < restaurants.length - 1) {
       setCurrentIndex(currentIndex + 1);
     }
   };
 
-  // Handle click for the previous button
   const handlePrevious = () => {
     if (currentIndex > 0) {
       setCurrentIndex(currentIndex - 1);
     }
   };
 
-  // Static data simulating API response
+  if (isLoading) {
+    return <p>Loading...</p>;
+  }
 
-  return <>
-  <div className="container mx-auto my-8">
+  if (hasError) {
+    return <p>Error fetching data.</p>;
+  }
+
+  return (
+    <div className="container mx-auto my-8 hidden lg:block xl:block">
       <h2 className="text-center text-2xl font-bold mb-4">Featured Restaurants</h2>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center p-3">
         <button
           onClick={handlePrevious}
           disabled={currentIndex === 0}
-          className=" bg-red-800 rounded-full shadow-lg shadow-red-800 hover:scale-110 disabled:opacity-50"
+          className=" pb-1 text-white text-2xl px-2 bg-red-500 rounded-full shadow-lg shadow-red-500 hover:scale-110 disabled:opacity-50"
         >
           ←
         </button>
-        <div className="flex overflow-hidden w-full mx-4">
+        <div className="flex flex-wrap justify-center w-full mx-4 lg:flex-row md:flex-wrap">
           {restaurants.slice(currentIndex, currentIndex + 3).map((restaurant, index) => (
             <RestaurantCard key={index} restaurant={restaurant} />
           ))}
         </div>
         <button
           onClick={handleNext}
-          disabled={currentIndex >= restaurants.length - 3}
-          className="py-2 px-2 bg-red-800 rounded-full shadow-lg shadow-red-800 hover:scale-110 disabled:opacity-50"
+          disabled={currentIndex >= restaurants.length - 1}
+          className=" pb-1 text-white text-2xl px-2 bg-red-500 rounded-full shadow-lg shadow-red-500 hover:scale-110 disabled:opacity-50"
         >
-        →
+          →
         </button>
       </div>
       <div className="flex justify-center mt-4">
@@ -74,7 +79,7 @@ const FeaturedRestaurants = () => {
         </button>
       </div>
     </div>
-  </>;
+  );
 };
 
 export default FeaturedRestaurants;

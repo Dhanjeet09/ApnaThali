@@ -4,7 +4,7 @@ const RestaurantCard = ({ restaurant, index }) => {
   const placeholderImage = "./src/Images/Cardbg.jpg";
 
   return (
-    <div className="w-1/4 mx-auto rounded-xl shadow-2xl overflow-hidden md:max-w-2xl">
+    <div className="w-1/4  p-1 mx-auto rounded-xl shadow-xl overflow-hidden md:max-w-2xl">
       {/* Card Header */}
       <div className="flex justify-between items-center mb-2">
         <div className="p-1 flex items-center translate-y-16 bg-white rounded-full translate-x-6">

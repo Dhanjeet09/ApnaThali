@@ -7,7 +7,7 @@ const Card = ({path,alt,title , des,className}) => {
         <img
           src={path}
           alt={alt}
-          className="w-40 h-44 mx-auto mb-4 "
+          className="h-44 mx-auto mb-4 "
           
         />
         <h3 className="text-xl font-semibold">{title}</h3>
